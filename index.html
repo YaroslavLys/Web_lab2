@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab</title>
+    <link href="http://fonts.cdnfonts.com/css/mulish" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container">
+            <header class="header">
+                <a class="logo" href="">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <nav class="header_nav">
+                    <ul>
+                        <li class="header_li"><a class="active" href="">Home</a></li>
+                        <li class="header_li"><a class="not_active" href="">Destinations</a></li>
+                        <li class="header_li"><a class="not_active" href="">About</a></li>
+                        <li class="header_li"><a class="not_active" href="">Partner</a></li>
+                    </ul>
+                </nav>
+                <div class="buttons">
+                    <button class="login_button">Login</button>
+                    <button class="register_button">Register</button>
+                </div>
+                <button class="button_menu" onclick="toggleMenu()">
+                    <img class="menu_icon" src="img/hamburger.svg" alt="">
+                </button>
+                <nav id="nav_menu" class="menu">
+                    <ul>
+                        <li class="menu-li"><a class="li_element" href="">Home</a></li>
+                        <li class="menu-li"><a class="li_element" href="">Destinations</a></li>
+                        <li class="menu-li"><a class="li_element" href="">About</a></li>
+                        <li class="menu-li"><a class="li_element" href="">Partner</a></li>
+                        <li class="menu-li-button">
+                            <button class="login_button_menu">Login</button>
+                            <button class="register_button_menu">Register</button>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="container">
+            <div class="hero_inner">
+                <h1 class="hero_h1">Explore and Travel</h1>
+                <p class="hero_p">Holiday finder</p>
+                <img class="hero_line" src="img/line.svg" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="select_boxes">
+                <ul>
+                    <li class="select_box"><select class="box">
+                        <option>Location</option>
+                        <option>other location</option>
+                    </select></li>
+                    <li class="select_box"><select class="box">
+                        <option>Activity</option>
+                        <option>other activity</option>
+                    </select></li>
+                </ul>
+                <ul>
+                    <li class="select_box"><select class="box">
+                        <option>Grade</option>
+                        <option>other grade</option>
+                    </select></li>
+                    <li class="select_box"><select class="box">
+                        <option>Data</option>
+                        <option>other data</option>
+                    </select></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="intro_inner">
+            <div class="container">
+                <div class="intro_content">
+                    <h1 class="intro_h1">A new way to explore the world </h1>
+                    <p class="intro_p">
+                        For decades travellers have reached for Lonely
+                        Planet books when looking to plan and execute their perfect
+                        trip, but now, they can also let Lonely Planet Experiences lead the way
+                    </p>
+                    <button class="learn_more_button">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="destinations">
+        <div class="destinations_inner">
+            <div class="container">
+                <div class="destinations_header">
+                    <h1 class="destinations_title">Featured destinations</h1>
+                    <div class="view_all">
+                        <h6><a href="">View all</a></h6>
+                        <img src="img/vector.svg" alt="" class="vector">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="images">
+                <div class="destination_cards destination_card_1">
+                    <div class="feature">
+                        <h6>Raja Ampat</h6>
+                        <p>Indonesia</p>
+                    </div>
+                </div>
+                <div class="destination_cards destination_card_2">
+                    <div class="feature">
+                        <h6>Fanjingshan</h6>
+                        <p>China</p>
+                    </div>
+                </div>
+                <div class="destination_cards destination_card_3">
+                    <div class="feature">
+                        <h6>Vevey</h6>
+                        <p>Switzerland</p>
+                    </div>
+                </div>
+                <div class="destination_cards destination_card_4">
+                    <div class="feature">
+                        <h6>Skadar</h6>
+                        <p>Montenegro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer_container">
+        <footer class="footer">
+            <div>
+                <img src="img/footer_logo.svg" alt="">
+                <h6>©2020 Thousand Sunny. All rights reserved</h6>
+            </div>
+            <div class="line">
+                <img src="img/footer_line.svg"  alt="">
+            </div>
+            <nav class="footer_media">
+                <ul>
+                    <li class="footer_media_link"><a href=""><img src="img/logo_twitter.svg" alt=""></a></li>
+                    <li class="footer_media_link"><a href=""><img src="img/logo_facebook.svg" alt=""></a></li>
+                    <li class="footer_media_link"><a href=""><img src="img/logo_instagram.svg" alt=""></a></li>
+                    <li class="footer_media_link"><a href=""><img src="img/logo_linkedin.svg" alt=""></a></li>
+                    <li class="footer_media_link"><a href=""><img src="img/logo_youtube.svg" alt=""></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </section>
+    
+    <script src="js/main.js"></script>
+
+</body>
+</html>
