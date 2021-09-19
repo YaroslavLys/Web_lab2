@@ -1,0 +1,19 @@
+@import "normalize.min.css";
+
+@import 'reset.min.css';
+
+@import "global.css";
+
+@import "header.css";
+
+@import "hero.css";
+
+@import "intro.css";
+
+@import "destination.css";
+
+@import "footer.css";
+
+@import "styles_4k.css";
+
+@import "styles_5s.css";
